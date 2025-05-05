@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>ReactApp</title>
+</head>
+<body>
+
+    <div id="root"></div>
+    
+
+    <script type="text/babel">
+
+        const divRoot = document.getElementById('root');
+
+        const nombre = 'Goku';
+
+        const h1tag = <h1>Hola soy {nombre}</h1>;
+
+        ReactDOM.render(h1tag, divRoot);
+    
+    
+    </script>
+
+
+
+</body>
+</html>
