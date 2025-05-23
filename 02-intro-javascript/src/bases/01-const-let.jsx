@@ -10,10 +10,10 @@ valorDado = 4; // ✅ Se reasigna el valor de 'valorDado' a 4 (válido porque no
 console.log(nombre, apellido, valorDado); // Imprime: Rafael Chuco 4
 
 // ⚠️ var no se debe usar: tiene alcance de función, lo que puede causar errores difíciles de detectar
-if (true) {
-    const nombre = "Diego"; // Se declara una NUEVA constante 'nombre' válida solo dentro del bloque
-    let valorDado = 12; // Se declara una NUEVA variable 'valorDado' solo visible dentro del bloque
-    console.log(nombre, valorDado); // Imprime: Diego 12 (valores dentro del bloque)
-}
+// if (true) {
+//     const nombre = "Diego"; // Se declara una NUEVA constante 'nombre' válida solo dentro del bloque
+//     let valorDado = 12; // Se declara una NUEVA variable 'valorDado' solo visible dentro del bloque
+//     console.log(nombre, valorDado); // Imprime: Diego 12 (valores dentro del bloque)
+// }
 
 console.log(valorDado); // Imprime: 4 (valor original fuera del 'if', no fue afectado por el interior)
